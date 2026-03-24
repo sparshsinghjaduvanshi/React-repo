@@ -3,13 +3,14 @@ import Chai from './chai'
 
 function App() {
   const [count, setCount] = useState(0)
+  const username = 'John Doe'
 
   return (
     
       // <h1>cahi aur react</h1>
     <>
       <Chai />
-      <p>Hello world!</p>
+      <p>Hello world! my name is {username} </p>
     </>
   )
 }
